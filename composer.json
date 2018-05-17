@@ -1,0 +1,15 @@
+{
+    "name": "igniteit/arduino-general-user",
+    "type": "arduino-lib",
+	"version": "1.0",
+    "description": "",
+    "keywords": ["Arduino"],
+    "authors": [
+        {
+            "name": "Eduardo Sebastian Nola",
+            "email": "edunola13@hotmail.com",
+            "homepage": "http://www.edunola.com.ar/",
+            "role": "Designer,Developer"
+        }
+    ]
+}
