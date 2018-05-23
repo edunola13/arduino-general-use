@@ -1,6 +1,3 @@
-//
-//ULTIMA MODIFICACION: 16-10-2017
-
 //Servidor HTTP
 #ifdef USE_SERVER
 HttpWiFiServer server(80);

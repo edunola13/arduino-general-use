@@ -1,6 +1,3 @@
-//
-//ULTIMA MODIFICACION: 04-12-2017
-
 //Servidor HTTP
 #ifdef USE_SERVER
 HttpServer server(80);
