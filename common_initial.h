@@ -4,6 +4,12 @@
 //  -Define constantes funciones que reemplazan a Serial.print y .println
 //  -Define si arranca WatchDog
 //ULTIMA MODIFICACION: 17-05-2018
+
+#ifndef GenUseCommon_h
+#define GenUseCommon_h
+
+#include <Arduino.h>
+
 #ifdef USE_WDT
   #include <avr/wdt.h>
 #endif
@@ -34,6 +40,8 @@ void initialGeneric(){
     }
     Serial.println("INICIALIZANDO");
   #endif
+  
+#endif
 }
 
 void resetWatchDow(){
