@@ -40,8 +40,6 @@ void initialGeneric(){
     }
     Serial.println("INICIALIZANDO");
   #endif
-  
-#endif
 }
 
 void resetWatchDow(){
@@ -49,3 +47,5 @@ void resetWatchDow(){
     wdt_reset();
   #endif
 }
+
+#endif
