@@ -18,7 +18,7 @@ bool StreamCom::isMessage(){
   //return StreamCom::stream->available();
   return this->stream->available();
 }
-void StreamCom::sendMessage(String &msg, char endC1, char endC2 = '0'){
+void StreamCom::sendMessage(String &msg, char endC1, char endC2 /*='0'*/){
   /*StreamCom::stream->print(msg);
   StreamCom::stream->write(endC1);
   if(endC2 != '0'){
@@ -30,7 +30,7 @@ void StreamCom::sendMessage(String &msg, char endC1, char endC2 = '0'){
     this->stream->write(endC2);
   }
 }
-String StreamCom::readMessageUp(char endC1, char endC2 = '0'){
+String StreamCom::readMessageUp(char endC1, char endC2 /*='0'*/){
   uint8_t retries = 0;
   String msg = "";
   bool end = false;
