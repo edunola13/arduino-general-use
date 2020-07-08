@@ -3,7 +3,6 @@
 //  -Define si se usa o no serial
 //  -Define constantes funciones que reemplazan a Serial.print y .println
 //  -Define si arranca WatchDog
-//ULTIMA MODIFICACION: 17-05-2018
 
 #ifndef GenUseCommon_h
 #define GenUseCommon_h
@@ -35,7 +34,7 @@ void initialGeneric(){
       Serial.begin(DOMO_SPEED);
     #else
       Serial.begin(115200);
-    #endif    
+    #endif
     while (!Serial) {; // wait for serial port to connect. Needed for native USB port only
     }
     Serial.println("INICIALIZANDO");
