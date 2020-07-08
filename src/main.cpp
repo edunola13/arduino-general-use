@@ -5,7 +5,6 @@
 #include "reset_manage.h"
 #include "serial/StreamCom.h"
 
-
 void setup() {
   // put your setup code here, to run once:
 }
