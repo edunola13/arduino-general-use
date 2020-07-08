@@ -16,13 +16,13 @@
 class StreamCom{
   protected:
     //static Stream *stream;
-	Stream *stream;
+	   Stream *stream;
 
-  public: 
+  public:
     StreamCom();
 
     //static void init(Stream* stream);
-	void init(Stream* stream);
+	   void init(Stream* stream);
 
     bool isMessage();
     void sendMessage(String &msg, char endC1, char endC2 = '0');
