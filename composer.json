@@ -1,7 +1,7 @@
 {
     "name": "igniteit/arduino-general-use",
     "type": "arduino-lib",
-	"version": "1.0",
+	  "version": "1.0",
     "description": "",
     "keywords": ["Arduino"],
     "authors": [

@@ -37,7 +37,11 @@ void resetConfiguration(){
   cant= 0;
   if(digitalRead(resetPin) == LOW){
     DEB_DO_PRINTLN(RESET_BEGIN);
-    EEPROM.update(0, 0);
+    #if defined(ESP8266) || defined(ESP32)
+      EEPROM.put(0, 0);
+    #else
+      EEPROM.update(0, 0);
+    #endif
     DEB_DO_PRINTLN(RESET_END);
   }
   interrupts();
